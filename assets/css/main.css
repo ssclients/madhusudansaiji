@@ -986,23 +986,13 @@ body {
 
 .guru .guru-images img {
   display: block;
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   border-radius: 8px;
 }
 
 
-.guru .guru-images::before {
-  content: "";
-  position: absolute;
-  top: -3px;
-  left: -3px;
-  right: -3px;
-  bottom: -3px;
-  z-index: -1;
-  border-radius: 10px;
-  background: radial-gradient(circle at top left, #7B6342, #ECA427, #ECA427, #7B6342);
-}
+
 
 @media screen and (max-width: 992px) {
   .guru .guru-images {
