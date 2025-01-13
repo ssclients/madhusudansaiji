@@ -10,10 +10,53 @@
     <link rel="icon" type="image/png" sizes="50x50" href="assets/images/logos/smsimsr.png">
     <!-- theme css -->
     <link href="assets/css/main.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"      rel="stylesheet">
 
-      rel="stylesheet">
+    <!-- drop down links starts here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- drop down links ends here -->
+
     <title>Sri Sathya Sai Loka Seva Gurukulam</title>
+    <style>
+      .head {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px; /* Default font size for large screens */
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 24px; /* Font size for medium screens (tablets) */
+  }
+}
+
+@media (max-width: 576px) {
+  .head {
+    font-size: 18px; /* Font size for small screens (phones) */
+  }
+}
+
+.head-2 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 30px; /* Default font size for large screens */
+}
+
+@media (max-width: 768px) {
+  .head-2 {
+    font-size: 22px; /* Font size for medium screens (tablets) */
+  }
+}
+
+@media (max-width: 576px) {
+  .head-2 {
+    font-size: 16px; /* Font size for small screens (phones) */
+  }
+}
+    </style>
   </head>
   <body>
     <!-- page wrapper section -->
@@ -175,8 +218,10 @@
 }
 
     </style>
+
+
     <!-- frequently used links section -->
-    <section class="frequently-used-links py-8 trending">
+    <!-- <section class="frequently-used-links py-8 trending">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <h2 class="mb-4 display-6 head">Links of frequently used pages</h2>
@@ -201,9 +246,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- Repeatable item structure below -->
-                <div class="col-12 col-lg-6 col-xl-4 mb-3">
+                <!-- <div class="col-12 col-lg-6 col-xl-4 mb-3">
                   <div class="row g-0 list align-items-center">
                     <div class="col-12 col-md-4 col-xxl-4 text-center">
                       <figure class="mb-4 pt-lg-3"> <a href="#"><img src="assets/images/links/smsimsr.png"
@@ -373,7 +418,283 @@
 }
 
 
-    </style> </section>
+    </style> </section> -->
+
+    <!-- <section class="frequently-used-links py-8 trending">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <h2 class="mb-4 display-6 head">Links of Frequently Used Pages</h2>
+      <div class="col-12">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="frequentLinksDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            Select a Page
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="frequentLinksDropdown"> -->
+            <!-- Repeatable Dropdown Item -->
+            <!-- <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/institutional-policies-and-guidelines.png" alt="Institutional Policies &amp; Guidelines - Gurukulam" width="20px" height="20px" class="me-2">
+                Institutional Policies &amp; Guidelines - Gurukulam
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/smsimsr.png" alt="SMSIMSR" width="20px" height="20px" class="me-2">
+                SMSIMSR
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/my-helpdesk.png" alt="My Helpdesk" width="20px" height="20px" class="me-2">
+                My Helpdesk
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/it-department.png" alt="IT Department" width="20px" height="20px" class="me-2">
+                IT Department
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/hr-department.png" alt="HR Department" width="20px" height="20px" class="me-2">
+                HR Department
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/training-and-leadership-development.png" alt="Training &amp; Leadership Development" width="20px" height="20px" class="me-2">
+                Training &amp; Leadership Development
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/admin-department.png" alt="Admin Department" width="20px" height="20px" class="me-2">
+                Admin Department
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/transport-request.png" alt="Transport Request" width="20px" height="20px" class="me-2">
+                Transport Request
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <img src="assets/images/links/maintenance-department.png" alt="Maintenance Department" width="20px" height="20px" class="me-2">
+                Maintenance Department
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .dropdown-menu img {
+      object-fit: contain;
+    }
+    .dropdown-item {
+      display: flex;
+      align-items: center;
+    }
+    .btn-primary {
+      background-color: #7B6342;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #6A5538;
+    }
+
+    .btn-primary:active {
+      background-color: #59462E;
+    }
+
+  </style>
+</section> -->
+    
+    <section class="frequently-used-links py-8 trending">
+      <div class="container">
+        <h2 class="mb-4 display-6 head">Links of Frequently Used Pages</h2>
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/institutional-policies-and-guidelines.png" alt="Institutional Policies & Guidelines - Gurukulam" width="30" height="30">
+              Institutional Policies & Guidelines - Gurukulam
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/smsimsr.png" alt="SMSIMSR" width="30" height="30">
+              SMSIMSR
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/my-helpdesk.png" alt="My Helpdesk" width="30" height="30">
+              My Helpdesk
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/it-department.png" alt="IT Department" width="30" height="30">
+              IT Department
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/hr-department.png" alt="HR Department" width="30" height="30">
+              HR Department
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/training-and-leadership-development.png" alt="Training & Leadership Development" width="30" height="30">
+              Training & Leadership Development
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/admin-department.png" alt="Admin Department" width="30" height="30">
+              Admin Department
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/transport-request.png" alt="Transport Request" width="30" height="30">
+              Transport Request
+            </a>
+          </li>
+          <li class="mb-3">
+            <a href="#">
+              <img src="assets/images/links/maintenance-department.png" alt="Maintenance Department" width="30" height="30">
+              Maintenance Department
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <style>
+        a {
+          font-family: 'Arial', sans-serif; /* Change to your preferred font */
+          font-size: 16px; /* Adjust font size */
+          color: #007bff; /* Change the color of the link text */
+          text-decoration: none; /* Remove underline */
+          font-weight: bold; /* Make text bold */
+          transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+      
+        a:hover {
+          color: #0056b3; /* Change color on hover */
+          text-decoration: underline; /* Add underline on hover */
+        }
+      
+        a img {
+          margin-right: 10px; /* Add space between image and text */
+          vertical-align: middle; /* Align text and image */
+        }
+      </style>
+    </section>
+
+    <!-- <section class="frequently-used-links py-8 trending">
+      <div class="container">
+        <h2 class="mb-4 display-6 head">Links of Frequently Used Pages</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/institutional-policies-and-guidelines.png" alt="Institutional Policies & Guidelines - Gurukulam" width="30" height="30">
+                  Institutional Policies & Guidelines - Gurukulam
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/smsimsr.png" alt="SMSIMSR" width="30" height="30">
+                  SMSIMSR
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/my-helpdesk.png" alt="My Helpdesk" width="30" height="30">
+                  My Helpdesk
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/it-department.png" alt="IT Department" width="30" height="30">
+                  IT Department
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/hr-department.png" alt="HR Department" width="30" height="30">
+                  HR Department
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/training-and-leadership-development.png" alt="Training & Leadership Development" width="30" height="30">
+                  Training & Leadership Development
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/admin-department.png" alt="Admin Department" width="30" height="30">
+                  Admin Department
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/transport-request.png" alt="Transport Request" width="30" height="30">
+                  Transport Request
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#">
+                  <img src="assets/images/links/maintenance-department.png" alt="Maintenance Department" width="30" height="30">
+                  Maintenance Department
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <style>
+        a {
+          font-family: 'Arial', sans-serif; /* Change to your preferred font */
+          font-size: 16px; /* Adjust font size */
+          color: #007bff; /* Change the color of the link text */
+          text-decoration: none; /* Remove underline */
+          font-weight: bold; /* Make text bold */
+          transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+      
+        a:hover {
+          color: #0056b3; /* Change color on hover */
+          text-decoration: underline; /* Add underline on hover */
+        }
+      
+        a img {
+          margin-right: 10px; /* Add space between image and text */
+          vertical-align: middle; /* Align text and image */
+        }
+      </style>
+      
+    </section> -->
+    
+    
     <!-- footer Part -->
     <footer class="footer">
       <div class="container">
